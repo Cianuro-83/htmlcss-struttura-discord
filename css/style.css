@@ -1,0 +1,70 @@
+/* REGOLE DI RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* FINE REGOLE DI RESET */
+
+/* REGOLE DI DEBUG */
+header.debug {
+  min-height: 50px;
+  padding: 20px;
+  background-color: #add8e6;
+}
+
+.page-content.debug {
+  min-height: 100px;
+  padding: 30px;
+  background-color: grey;
+}
+footer.debug {
+  min-height: 100px;
+  padding: 30px;
+  background-color: black;
+}
+
+.container.debug {
+  min-height: 30px;
+  background-color: #daa420;
+  border: 2px dashed black;
+}
+/* FINE REGOLE DI DEBUG */
+
+/* REGOLE DI PROGETTO */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  padding: 10px;
+  border: 2px dotted black;
+}
+.row15 {
+  flex-basis: 15%;
+}
+.row70 {
+  flex-basis: 70%;
+}
+
+.link {
+  text-align: center;
+}
+.login {
+  text-align: right;
+}
+/* FINE REGOLE PROGETTO */
