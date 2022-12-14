@@ -207,7 +207,9 @@ footer {
   background-color: black;
   color: white;
 }
-
+.fc1 {
+  border-bottom: 1px solid white;
+}
 .colf1a,
 .colf1b,
 .colf1c,
